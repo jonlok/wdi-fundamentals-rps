@@ -59,15 +59,16 @@ function getWinner(playerMove,computerMove) {
      if (playerMOve === 'scissors' && computerMove === 'paper') {
         winner = 'player'
      }
-     if (computerMove === 'rock' && playerMove === 'paper') {
         winner = 'computer'
-     }
-     if (computerMove === 'paper' && playerMove === 'rock') {
-        winner = 'computer'
-     }
-     if (computerMOve === 'scissors' && playerMove === 'paper') {
-        winner = 'computer'
-     }
+     // if (computerMove === 'rock' && playerMove === 'paper') {
+     //    winner = 'computer'
+     // }
+     // if (computerMove === 'paper' && playerMove === 'rock') {
+     //    winner = 'computer'
+     // }
+     // if (computerMOve === 'scissors' && playerMove === 'paper') {
+     //    winner = 'computer'
+     // }
 
     return winner;
 }
